@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="STRPO.Data.DataProvider">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAACAAAAAAAAAAAAAAAAAIAABAAAAAAAAAA=</HashCode>
+      <FileName>DataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STRPO.Data.Models.ContentDetails" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ContentDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STRPO.Data.Models.FlatVideoData">
+    <Position X="5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIQAAAkAAAAAAAAAAAAAAAEAAAASAAQABIAQ=</HashCode>
+      <FileName>Models\FlatVideoData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STRPO.Data.Models.Snippet" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAEgAkAAAAAAAAAAAAAAAEAAAASAAQABAAA=</HashCode>
+      <FileName>Models\Snippet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STRPO.Data.Models.Statistics" Collapsed="true">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAQQAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STRPO.Data.Models.Video">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAACAAgAAAAA=</HashCode>
+      <FileName>Models\Video.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContentDetails" />
+      <Property Name="Snippet" />
+      <Property Name="Statistics" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
